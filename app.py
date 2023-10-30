@@ -3,9 +3,9 @@ from tabulate import tabulate
 
 # insert MySQL Database information here
 HOST = "localhost"
-DATABASE = "test"
-USER = "manelisi"
-PASSWORD = "Databaseserver1"
+DATABASE = "db-test"
+USER = "app1.0.0"
+PASSWORD = ""
 
 # connect to the database
 db_connection = mysql.connect(host=HOST, database=DATABASE, user=USER, password=PASSWORD)
